@@ -1,0 +1,71 @@
+body{
+    background-color:#eee;
+    text-align:center;
+    
+}
+#main{
+    color:#eee;
+    border-radius: 5px;
+}
+a{
+    color: #477ca7;
+}
+a:visited{
+    color: #74638f;
+}
+
+
+.img-div{
+    background-color:white;
+
+}
+h1{
+    font-size:40px;
+}
+#image{
+    margin-top: 20px;
+    width:80vw;
+    height:65vh;
+    filter:grayscale(70%);
+}
+.image{
+    align-self: center;
+}
+.tribute-info{
+    width:45vw;
+    margin:auto;
+}
+ol{
+    text-align:left;
+    line-height:1.5;
+    list-style-type:disc;
+}
+ol li{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+/*media queries*/
+
+@media only screen and (max-width:1000px){
+    .tribute-info{
+        width:70vw;
+        margin:auto;
+    }
+    .image{
+        align-self: center;
+        height:auto;
+
+}
+
+@media only screen and (max-width:500px){
+    .tribute-info{
+        width:90vw;
+        margin:auto;
+    }
+}
+}
